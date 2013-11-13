@@ -1,0 +1,8 @@
+puts "Hello, what is your name?"
+first_name = gets.chomp
+puts "What is your middle name?"
+middle_name = gets.chomp
+puts "What is your last name?"
+last_name = gets.chomp
+
+puts "It is a pleasure to meet you #{first_name} #{middle_name} #{last_name}!."
